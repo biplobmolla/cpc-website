@@ -17,7 +17,7 @@ const Advisors = ({ advisors = [] }) => {
           {"<"}
         </button>
         <button className="text-lg lg:text-xl 2xl:text-2xl hover:text-orange-500 uppercase underline decoration-orange-500 underline-offset-2">
-          2022
+          2023
         </button>
         <button className="text-xl lg:text-2xl 2xl:text-2xl hover:text-orange-500">
           {">"}
