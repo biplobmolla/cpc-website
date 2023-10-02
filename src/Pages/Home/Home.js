@@ -6,6 +6,7 @@ import homeBanner2 from "./../../Media/Images/CoverItem 2.jpg";
 import homeBanner3 from "./../../Media/Images/CoverItem 3.jpg";
 import homeBanner4 from "./../../Media/Images/CoverItem 4.jpg";
 import homeBanner5 from "./../../Media/Images/CoverItem 5.jpg";
+import homeBanner6 from "./../../Media/Images/CoverItem 6.jpg";
 import Navbar from "../../Components/Navbar/Navbar";
 import useDocumentTitle from "../../Hooks/useDocumentTitle";
 import NavbarMini from "../../Components/Navbar/NavbarMini";
@@ -30,6 +31,7 @@ const Home = () => {
     homeBanner3,
     homeBanner4,
     homeBanner5,
+    homeBanner6,
   ];
   const [backgroundImage, setBackgroundImage] = useState(bgImages[0]);
   const [firstLoad, setFirstLoad] = useState(false);
@@ -170,13 +172,13 @@ const Home = () => {
         </div>
         <div className="bg-[#015694] px-5 xl:px-10 py-0.5 xl:py-5">
           <div className="xl:w-4/5 mx-auto grid grid-cols-5 xl:grid-cols-8 items-center">
-            <div className="text-white text-sm xl:text-2xl 2xl:text-4xl font-light">
+            <div className="text-white text-sm xl:text-2xl 2xl:text-3xl font-light">
               Flagship |
             </div>
             <div className="col-span-3 xl:col-span-6">
               <Sponsors></Sponsors>
             </div>
-            <div className="text-white text-sm xl:text-2xl 2xl:text-4xl font-light">
+            <div className="text-white text-sm xl:text-2xl 2xl:text-3xl font-light">
               | Events
             </div>
           </div>
