@@ -138,7 +138,7 @@ const Footer = () => {
       </div>
       <div className="divider before:bg-slate-200 dark:before:bg-slate-700 after:bg-slate-200 dark:after:bg-slate-700 xl:hidden"></div>
       <p className="text-center text-sm xl:mt-10">
-        Copyright © 2022 DIU CPC | All Rights Reserved
+        Copyright © 2023 DIU CPC | All Rights Reserved
       </p>
     </footer>
   );
